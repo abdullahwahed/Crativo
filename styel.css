@@ -687,7 +687,7 @@ header i {
 
 @media (max-width: 1200px) {
     .sec2 {
-        height: fit-content;
+        height: 70vh;
     }
 
     .sec2 .right {
@@ -702,7 +702,7 @@ header i {
 
 @media (max-width: 992px) {
     .sec2 {
-        height: fit-content;
+        height: 70vh;
     }
 
     .sec2 .container {
