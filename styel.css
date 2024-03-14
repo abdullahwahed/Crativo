@@ -222,10 +222,12 @@ header i {
 /* End Header */
 /* Start Landing */
 .landing {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
     position: relative;
     display: flex;
     align-items: center;
-    height: 82.5vh;
+    height: fit-content;
     background-color: #0C0C0C;
     overflow: hidden;
     background-image: url(/imagess\ 4/portrait.png);
@@ -239,7 +241,7 @@ header i {
     position: absolute;
     width: 100%;
     background: linear-gradient(to left, #5CD2B840 0%, #0c0c0c00 50%);
-    height: 82.4vh;
+    height: 100%;
 }
 
 .landing .container {
@@ -422,6 +424,7 @@ header i {
 .sec1 {
     padding-top: var(--main-padding-top);
     padding-bottom: var(--main-padding-bottom);
+    padding-bottom: 200px;
     height: fit-content;
     background-color: #000000;
 }
@@ -556,7 +559,10 @@ header i {
         align-items: center;
         width: 100%;
     }
-
+    .sec1 .left  p{
+        text-align: center;
+    }
+    
     .sec1 .left h1::after {
         left: 50%;
         transform: translateX(-50%);
@@ -571,12 +577,14 @@ header i {
     .sec1 {
         height: fit-content;
     }
-
+    .sec1 .left h1 {
+        font-size: 50px;
+    }
     .sec1 .boxes>div {
         width: 100%;
         margin-right: 0px;
     }
-
+ 
     .sec1 .web,
     .sec1 .ui {
         margin-top: 20px;
